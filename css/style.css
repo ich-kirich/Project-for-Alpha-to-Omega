@@ -90,7 +90,7 @@ main {
 }
 
 #preview .container {
-    min-height: 765px;
+    min-height: 965px;
     background: url(../img/preview-back.jpg);
     background-repeat: no-repeat;
     background-position: 0 center;
@@ -98,7 +98,7 @@ main {
 }
 
 #preview .preview-inner {
-    padding-top: 122px;
+    padding-top: 80px;
     width: 892px;
 }
 
@@ -109,17 +109,16 @@ main {
     font-weight: 700;
     font-size: 80px;
     line-height: 96px;
-    color: #FFFFFF;
+    color: #fff;
 }
 #preview .preview-inner p {
-    margin-top: 32px;
     margin-bottom: 46px;
     font-family: 'Aleo', sans-serif;
     font-style: italic;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 #steps {
@@ -387,6 +386,19 @@ main {
     color: #0D606F;
 }
 
+#stories .text a {
+    font-family: 'Aleo', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0D606F;
+    cursor: pointer;
+    transition: color .5s linear;
+}
+
+#stories .text a:hover{
+    color: #ac2e25 ;
+}
+
 footer {
     padding-top: 19px;
     height: 61px;
@@ -445,7 +457,7 @@ footer .youtube {
 
     #stories .story .image1 {
         min-height: auto;
-        width: 100%;
+        width: 50%;
         border-radius: 16px;
         overflow: hidden;
         filter: drop-shadow(0px 4px 4px #0D606F);
@@ -458,12 +470,12 @@ footer .youtube {
 
     #stories .story .image2{
         min-height: auto;
-        width: 100%;
+        width: 50%;
         border-radius: 16px;
         overflow: hidden;
         filter: drop-shadow(0px 4px 4px #0D606F);
         line-height: 0em;
-        background: url(../img/second-story-img-mobile.jpg);
+        background: url(../img/second-story-img.jpg);
         background-repeat: no-repeat;
         background-position: top center;
         background-size: 100% 100%;
@@ -471,12 +483,12 @@ footer .youtube {
     
     #stories .story .image3{
         min-height: auto;
-        width: 100%;
+        width: 50%;
         border-radius: 16px;
         overflow: hidden;
         filter: drop-shadow(0px 4px 4px #0D606F);
         line-height: 0em;
-        background: url(../img/third-story-img-mobile.jpg);
+        background: url(../img/third-story-img.jpg);
         background-repeat: no-repeat;
         background-position: top center;
         background-size: 100% 100%;
@@ -488,9 +500,9 @@ footer .youtube {
     }
 
     #stories .story .text p{
-        font-size: 10px;
+        font-size: 20px;
         font-weight: 400;
-        line-height: 12px;
+        line-height: 24px;
         margin: 0px;
     }
 
@@ -544,8 +556,27 @@ footer .youtube {
         line-height: 46px;
     }
 
+    #stories .story .image1 {
+        width: 100%;
+    }
+
+    #stories .story .image2{
+        width: 100%;
+    }
+    
+    #stories .story .image3{
+        width: 100%;
+    }
+
     #stories .story .text {
         width: auto;
+    }
+
+    #stories .story .text p{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 15px;
+        margin: 0px;
     }
 }
 
@@ -668,6 +699,10 @@ footer .youtube {
         font-size: 25px;
         line-height: 32px;
     }
+
+    #stories .text a {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 412px) {
@@ -742,6 +777,17 @@ footer .youtube {
 
     #stories .text p {
         margin-top: 12px;
+    }
+
+    #stories .text a {
+        font-size: 12px;
+    }
+
+    #stories .story .text p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        margin: 0px;
     }
     
 }
@@ -1198,6 +1244,11 @@ footer .youtube {
         font-size: 9px;
         line-height: 11px;
         color: #0D606F;
+    }
+
+    #stories .text a {
+        font-size: 8px;
+        line-height: 10px;
     }
 
     footer {
