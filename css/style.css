@@ -94,7 +94,7 @@ main {
     background: url(../img/preview-back.jpg);
     background-repeat: no-repeat;
     background-position: 0 center;
-    background-size: auto 100%;
+    background-size: 100% 100%;
 }
 
 #preview .preview-inner {
@@ -219,7 +219,6 @@ main {
 #destinations .destinations-pictures .pictures {
     position: relative;
     margin: 0 30px;
-    flex: 1 0 800px;
     overflow: hidden;
     border-radius: 16px;
     line-height: 0em;
