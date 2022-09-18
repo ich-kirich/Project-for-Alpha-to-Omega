@@ -15,30 +15,6 @@ html, body {
     padding: 0 120px;
 }
 
-.see-more button, .find-more button{
-    margin: 40px auto 80px;
-    padding: 14px 33px 13px 81px;
-    border: none;
-    outline: none;
-    background: #0D606F;
-    border-radius: 10px;
-    font-family: 'Red Hat Text', sans-serif;
-    color: #fff;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    background-image: url(../img/arrow.svg);
-    background-repeat: no-repeat;
-    background-position: 35px center;
-    background-size: 35px 22px;
-    cursor: pointer;
-    transition: background-color 1.5s;
-}
-
-button:hover{
-    background-color: #05262c ;
-}
-
 header {
     position: relative;
     z-index: 50;
@@ -56,7 +32,7 @@ header .container .logo {
     color: #fff;
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 39px;
     letter-spacing: 0em;
 }
@@ -77,10 +53,6 @@ header ul li {
     display: list-item;
 }
 
-header ul .account, header ul .socia-media{
-    display: none;
-}
-
 header li a{
     text-decoration: none;
     font-family: 'Red Hat Text', sans-serif;
@@ -97,27 +69,6 @@ header li a{
 header li a:hover {
     color: #36b279;    
     transition: all .3s linear;
-}
-
-header .login button {
-    padding: 10px 30px;
-    color: #fff;
-    font-family: 'Red Hat Text', sans-serif;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 21px;
-    border: none;
-    outline: none;
-    background: #0D606F;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 1.5s;
-}
-
-header .login button:hover{
-    background-color: #05262c ;
 }
 
 #nav-toggle {
@@ -145,10 +96,12 @@ main {
     background-position: 0 center;
     background-size: auto 100%;
 }
+
 #preview .preview-inner {
     padding-top: 122px;
     width: 892px;
 }
+
 #preview .preview-inner h1 {
     margin: 0 auto;
     font-family: 'Aleo', sans-serif;
@@ -167,64 +120,6 @@ main {
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
-}
-
-#preview .preview-inner .search-field{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 892px;
-    background: rgba(255, 255, 255, 0.7);
-    border-radius: 16px;
-}
-
-#preview .search-field input[type="text"]{
-    padding: 0 0 0 41px;
-    width: 646px;
-    height: 95px;
-    border: none;
-    background: none;
-    outline: none;
-    font-family: 'Aleo', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    color: #F2785C;
-}
-
-#preview .search-field input::placeholder {
-    width: 100%;
-    font-family: 'Aleo', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    color: #F2785C;
-}
-
-#preview .search-field button {
-    margin-right: 18px;
-    width: 228px;
-    height: 59px;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 10px;
-    font-family: 'Red Hat Text', sans-serif;
-    font-style: normal;
-    background-color: #0D606F;
-    color: #fff;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
-    cursor: pointer;
-    transition: background-color 1.5s;
-}
-
-#preview .search-field button:hover{
-    background-color: #05262c ;
 }
 
 #steps {
@@ -305,18 +200,8 @@ main {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
     overflow: hidden;
-}
-
-#destinations h2 {
-    margin: 0 0 40px;
-    font-family: 'Red Hat Text', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 53px;
-    color: #F2785C;
-    text-align: center;
 }
 
 #destinations .roulette {
@@ -351,19 +236,6 @@ main {
 
 }
 
-#destinations .destinations-pictures .pictures span {
-    position: absolute;
-    left: 15px;
-    bottom: 40px;
-    font-family: 'Red Hat Text', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 42px;
-    text-transform: uppercase;
-    color: #fff;
-}
-
 #destinations .next {
     right: 0;
 }
@@ -381,6 +253,7 @@ main {
     gap: 10px;
     justify-content: center;
 }
+
 #destinations .pagination div {
     width: 20px;
     height: 20px;
@@ -491,19 +364,7 @@ main {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: auto 100%;
-}
-
-#stories .story .image4{
-    width: 400px;
-    height: 250px;
-    border-radius: 16px;
-    overflow: hidden;
-    filter: drop-shadow(0px 4px 4px #0D606F);
-    line-height: 0em;
-    background: url(../img/four-story-img.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: auto 100%;
+    margin-bottom: 41px
 }
 
 #stories .text h5{
@@ -526,28 +387,6 @@ main {
     color: #0D606F;
 }
 
-#stories .text a {
-    font-family: 'Aleo', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    color: #0D606F;
-    cursor: pointer;
-    transition: color .5s linear;
-}
-
-#stories .text a:hover{
-    color: #ac2e25 ;
-}
-
-#stories .see-more{
-    text-align: center;
-}
-
-#stories .see-more button {
-    margin-top: 10px;
-    margin-bottom: 41px;
-}
-
 footer {
     padding-top: 19px;
     height: 61px;
@@ -555,30 +394,15 @@ footer {
 
 footer .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-footer .container .course img, footer .container ul img{
+footer .container ul img{
     transition: opacity 0.7s;
-}
-
-footer .container img:hover{
-    opacity: 0.4;
 }
 
 footer .container ul img:hover{
     opacity: 0.5;
-}
-
-footer p {
-    margin: 2px 0 0;
-    text-align: center;
-    font-family: 'Red Hat Text', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF;
 }
 
 footer ul {
@@ -592,293 +416,6 @@ footer ul {
 
 footer .youtube {
     margin-top: 2px;
-}
-
-.registration-form{
-    display: none;
-    overflow: hidden;
-}
-
-.registration-form.open {
-    display: block;
-    
-}
-
-.registration-window {
-    position: absolute;
-    left: 50%;
-    top: 50px;
-    z-index: 55;
-    width: 650px;
-    margin-left: -325px;
-    border-radius: 16px;
-    background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    padding: 25px 45px 23px;
-    text-align: center;
-}
-
-.registration-window h4 {
-    margin: 0 0 30px;
-    font-family: 'Aleo', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    color: #0D606F;
-}
-
-.registration-window .social-login .facebook {
-    background: #1877F2;
-    color: #fff;
-}
-.registration-window .social-login a {
-    position: relative;
-    display: block;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 3px rgb(13 96 111 / 8%), 0px 2px 3px rgb(13 96 111 / 16%);
-    font-family: 'Red Hat Text', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 56px;
-    text-decoration: none;
-    border-radius: 10px;
-}
-
-.registration-window .devider {
-    margin: 0 0 10px;
-}
-
-.registration-window .devider span {
-    position: relative;
-    font-family: 'Aleo', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    color: rgba(13, 96, 111, 0.5);
-}
-
-.registration-window .devider span::before {
-    left: -500px;
-    right: 150%;
-}
-
-.registration-window .devider span::after {
-    left: 150%;
-    right: -500px;
-}
-
-.registration-window .devider span::before, .registration-window .devider span::after {
-    position: absolute;
-    top: 50%;
-    display: block;
-    height: 1px;
-    content: "";
-    background-color: rgba(13, 96, 111, 0.5);
-}
-
-.registration-window .input-field span {
-    margin-bottom: 5px;
-    display: block;
-    text-align: left;
-    font-family: 'Aleo', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #0D606F;
-}
-
-.registration-window input[type="text"], .registration-window input[type="password"] {
-    width: 100%;
-    height: 54px;
-    margin-bottom: 20px;
-    padding-left: 15px;
-    border: none !important;
-    outline: none !important;
-    background: #FFFFFF;
-    box-shadow: inset 0px 0px 3px rgb(13 96 111 / 8%), inset 0px 2px 3px rgb(13 96 111 / 16%);
-    border-radius: 10px;
-}
-
-.registration-window button {
-    width: 100%;
-    height: 54px;
-    margin: 5px 0 10px;
-    box-shadow: 0px 0px 3px rgb(13 96 111 / 8%), 0px 2px 3px rgb(13 96 111 / 16%);
-    border-radius: 10px;
-    font-family: 'Red Hat Text', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    border: none;
-    outline: none;
-    background: #0D606F;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 1.5s;
-}
-
-.registration-window button:hover, .login-window button:hover {
-    background-color: #05262c;
-}
-
-.registration-window .forgott-pass {
-    font-family: 'Aleo', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    text-decoration-line: underline;
-    color: #0D606F;
-    text-shadow: 0px 2px 3px rgb(255 255 255 / 16%);
-}
-
-.registration-window hr {
-    margin: 26px 0 20px;
-    border-color: rgba(13, 96, 111, 0.5);
-    border-bottom: none;
-}
-
-.registration-window .form-switcher {
-    font-family: 'Aleo', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    color: rgba(13, 96, 111, 0.5);
-    text-shadow: 0px 2px 3px rgb(255 255 255 / 16%);
-}
-
-.registration-window .form-switcher .login-switcher {
-    color: #0D606F;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.registration-shadow {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 53;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.3);
-    opacity: 1;
-}
-
-.login-form{
-    display: none;
-}
-
-.login-form.open {
-    display: block;
-}
-
-.login-window {
-    position: fixed;
-    top: 50px;
-    left: 50%;
-    z-index: 55;
-    margin-left: -325px;
-    padding: 25px 45px 23px;
-    width: 650px;
-    border-radius: 16px;
-    background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    text-align: center;
-}
-
-.login-window h4 {
-    font-family: 'Aleo', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    margin: 0 0 30px;
-    color: #0D606F;
-}
-
-.login-window .input-field span{
-    margin-bottom: 5px;
-    display: block;
-    text-align: left;
-    font-family: 'Aleo', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #0D606F;
-}
-
-.login-window button {
-    width: 100%;
-    margin: 5px 0 10px;
-    height: 54px;
-    box-shadow: 0px 0px 3px rgb(13 96 111 / 8%), 0px 2px 3px rgb(13 96 111 / 16%);
-    border-radius: 10px;
-    font-family: 'Red Hat Text', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    border: none;
-    outline: none;
-    background: #0D606F;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 1.5s;
-}
-
-.login-window .input-field input[type="text"], .login-window .input-field input[type="password"] {
-    width: 100%;
-    height: 54px;
-    margin-bottom: 20px;
-    padding-left: 15px;
-    border: none !important;
-    outline: none !important;
-    background: #FFFFFF;
-    box-shadow: inset 0px 0px 3px rgb(13 96 111 / 8%), inset 0px 2px 3px rgb(13 96 111 / 16%);
-    border-radius: 10px;
-}
-
-.login-window hr {
-    margin: 26px 0 20px;
-    border-color: rgba(13, 96, 111, 0.5);
-    border-bottom: none;
-}
-
-.login-window .form-switcher {
-    font-family: 'Aleo', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    color: rgba(13, 96, 111, 0.5);
-    text-shadow: 0px 2px 3px rgb(255 255 255 / 16%);
-}
-
-.login-window .form-switcher .switcher {
-    color: #0D606F;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.login-shadow {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 53;
-    display: block;
-    transition: 0.5s;
-    background-color: rgba(0, 0, 0, 0.3);
-    opacity: 1;
 }
 
 @media screen and (max-width: 1439px) {
@@ -927,6 +464,8 @@ footer .youtube {
         filter: drop-shadow(0px 4px 4px #0D606F);
         line-height: 0em;
         background: url(../img/second-story-img-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
         background-size: 100% 100%;
     }
     
@@ -942,29 +481,17 @@ footer .youtube {
         background-position: top center;
         background-size: 100% 100%;
     }
-    
-    #stories .story .image4{
-        min-height: auto;
-        width: 100%;
-        border-radius: 16px;
-        overflow: hidden;
-        filter: drop-shadow(0px 4px 4px #0D606F);
-        line-height: 0em;
-        background: url(../img/four-story-img-mobile.jpg);
-        background-repeat: no-repeat;
-        background-position: top center;
-        background-size: 100% 100%;
-    }
 
     #stories .story .text {
-        width: auto;
+        width: 100%;
         padding-left: 15px;
     }
 
     #stories .story .text p{
         font-size: 10px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 12px;
+        margin: 0px;
     }
 
     #stories .text h5 {
@@ -983,32 +510,9 @@ footer .youtube {
         width: 100%;
     }
 
-    #preview .preview-inner .search-field {
-        min-height: auto;
-        max-width: 100%;
-        background-size: 100% 100%;
-    }
-
-    #preview .search-field input[type="text"] {
-        max-width: 100%;
-        padding: 0;
-        font-size: 24px;
-        line-height: 29px;
-        color: #F2785C;
-    }
-
-    #preview .search-field input::placeholder {
-        max-width: 100%;
-        font-family: 'Aleo', sans-serif;
-        font-style: italic;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 29px;
-        color: #F2785C;
-    }
-
-    #destinations .destinations-pictures .pictures span {
-        left: 50px;
+    #stories .text h5 {
+        font-size: 30px;
+        line-height: 30px;
     }
 
 }
@@ -1034,23 +538,14 @@ footer .youtube {
         padding: 5px 15px;
         font-size: 10px;
     }
+    
+    #preview .preview-inner h1{
+        font-size: 45px;
+        line-height: 46px;
+    }
 
     #stories .story .text {
         width: auto;
-    }
-
-    .registration-window {
-        left: 15px;
-        right: 15px;
-        width: auto;
-        margin: 0;
-    }
-
-    .login-window {
-        left: 15px;
-        right: 15px;
-        width: auto;
-        margin: 0;
     }
 }
 
@@ -1085,18 +580,6 @@ footer .youtube {
         margin-left: 0px;
     }
 
-    #destinations .destinations-pictures .pictures span {
-        left: 180px;
-    }
-
-    footer .course{
-        display: none;
-    }
-
-    footer p {
-        display: none;
-    }
-
     #stories .story .image1{
         display: none;
     }
@@ -1108,9 +591,9 @@ footer .youtube {
     #stories .story .image3{
         display: none;
     }
-    
-    #stories .story .image4{
-        display: none;
+
+    #stories .story .text {
+        margin-bottom: 40px;
     }
 }
 
@@ -1122,11 +605,6 @@ footer .youtube {
     header li a {
         font-size: 8px;
         line-height: 8px;
-    }
-
-    header .login button {
-        padding: 3px 10px;
-        font-size: 8px;
     }
 
     #preview {
@@ -1142,30 +620,8 @@ footer .youtube {
         line-height: 48px;
     }
 
-    #preview .search-field input[type="text"] {
-        height: 60px;
-    }
-
-    #preview .search-field button {
-        margin-right: 0px;
-        width: auto;
-        padding: 3px 10px;
-        height: 50px;
-        font-size: 8px;
-        line-height: 11px;
-    }
-
     #steps .list-steps .step:nth-child(2) {
         margin-left: 0px;
-    }
-
-    #destinations .destinations-pictures .pictures span {
-        left: 250px;
-    }
-
-    #preview .search-field input[type="text"] {
-        font-size: 12px;
-        line-height: 29px;
     }
 
     #steps {
@@ -1202,16 +658,6 @@ footer .youtube {
         line-height: 24px;
     }
 
-    #destinations h2 {
-        margin: 0 0 20px;
-        font-size: 30px;
-        line-height: 53px;
-    }
-
-    .find-more button {
-        margin: 30px auto 40px;
-    }
-
     #stories h2 {
         margin: 0 0 20px;
         font-size: 30px;
@@ -1222,21 +668,12 @@ footer .youtube {
         font-size: 25px;
         line-height: 32px;
     }
-
-    #stories .text a {
-        font-size: 15px;
-    }
 }
 
 @media screen and (max-width: 412px) {
     header li a {
         font-size: 6px;
         line-height: 6px;
-    }
-
-    header .login button {
-        padding: 2px 5px;
-        font-size: 6px;
     }
 
     #preview {
@@ -1257,10 +694,6 @@ footer .youtube {
 
     #preview .container {
         min-height: 400px;
-    }
-
-    #preview .search-field input[type="text"] {
-        height: 50px;
     }
 
     #steps {
@@ -1297,16 +730,6 @@ footer .youtube {
         line-height: 12px;
     }
 
-    #destinations h2 {
-        margin: 0 0 20px;
-        font-size: 20px;
-        line-height: 30px;
-    }
-
-    .see-more button, .find-more button {
-        margin: 20px auto 40px;
-    }
-
     #stories h2 {
         font-size: 20px;
         line-height: 30px;
@@ -1315,10 +738,6 @@ footer .youtube {
     #stories .text h5 {
         font-size: 18px;
         line-height: 30px;
-    }
-
-    #stories .text a {
-        font-size: 12px;
     }
 
     #stories .text p {
@@ -1357,10 +776,6 @@ footer .youtube {
         background-size: 100% 100%;
     }
 
-    .logo span, .login {
-        display: none;
-    }
-
     nav {
         z-index: 60;
         top: 0;
@@ -1383,10 +798,6 @@ footer .youtube {
 
     nav li {
         text-align: right;
-    }
-
-    header ul .account, header ul .socia-media{
-        display: block;
     }
 
     header nav a{
@@ -1432,66 +843,11 @@ footer .youtube {
         margin-bottom: 20px;
     }
 
-    #preview .preview-inner .search-field {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: auto;
-        height: 48px;
-        background: rgba(255, 255, 255, 0.7);
-        border-radius: 16px;
-    }
-
-    #preview .search-field input[type="text"] {
-        padding: 0 0 0 16px;
-        width: 226px;
-        height: 48px;
-        border: none;
-        background: none;
-        outline: none;
-        font-family: 'Aleo', sans-serif;
-        font-style: italic;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        color: #F2785C;
-    }
-
     #preview .preview-inner {
         padding: 0px;
         padding-top: 142px;
         padding-bottom: 61px;
         width: auto;
-    }
-
-    #preview .search-field button {
-        margin-right: 9px;
-        width: 92px;
-        height: 30px;
-        box-sizing: border-box;
-        border: none;
-        border-radius: 10px;
-        font-family: 'Red Hat Text', sans-serif;
-        font-style: normal;
-        background-color: #0D606F;
-        color: #fff;
-        font-weight: 500;
-        font-size: 11px;
-        line-height: 15px;
-        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 2px 3px rgb(13 96 111 / 16%);
-        cursor: pointer;
-        transition: background-color 1.5s;
-    }
-
-    #preview .search-field input::placeholder {
-        width: 100%;
-        font-family: 'Aleo', sans-serif;
-        font-style: italic;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        color: #F2785C;
     }
 
     #nav-toggle {
@@ -1621,15 +977,6 @@ footer .youtube {
         background-size: 35px 31px;
     }
 
-    #destinations h2 {
-        padding: 0 12px;
-        margin: 0 0 20px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 19px;
-        color: #F2785C;
-    }
-
     #destinations .roulette {
         margin: 0 0 10px;
         padding: 0;
@@ -1749,18 +1096,6 @@ footer .youtube {
         height: 8px;
     }
 
-    #destinations .find-more button{
-        margin: 0px auto 20px;
-        padding: 10px 12px;
-        padding-left: 28px;
-        padding-right: 12px;
-        font-size: 11px;
-        line-height: 15px;
-        background-image: url(../img/arrow-mobile.svg);
-        background-size: 8px 5px;
-        background-position: 12px 14px;
-    }
-
     #stories h2 {
         margin: 0 0 10px;
         font-size: 14px;
@@ -1806,7 +1141,7 @@ footer .youtube {
     
     #stories .story .image1{
         display: block;
-        max-width: 155px;
+        width: 20%;
         height: 130px;
         border-radius: 16px;
         overflow: hidden;
@@ -1820,7 +1155,7 @@ footer .youtube {
     
     #stories .story .image2{
         display: block;
-        max-width: 155px;
+        width: 20%;
         height: 130px;
         border-radius: 16px;
         overflow: hidden;
@@ -1834,27 +1169,13 @@ footer .youtube {
     
     #stories .story .image3{
         display: block;
-        max-width: 155px;
+        width: 20%;
         height: 130px;
         border-radius: 16px;
         overflow: hidden;
         filter: drop-shadow(0px 4px 4px #0D606F);
         line-height: 0em;
         background: url(../img/third-story-img-mobile.jpg);
-        background-repeat: no-repeat;
-        background-position: top center;
-        background-size: auto 100%;
-    }
-    
-    #stories .story .image4{
-        display: block;
-        max-width: 155px;
-        height: 130px;
-        border-radius: 16px;
-        overflow: hidden;
-        filter: drop-shadow(0px 4px 4px #0D606F);
-        line-height: 0em;
-        background: url(../img/four-story-img-mobile.jpg);
         background-repeat: no-repeat;
         background-position: top center;
         background-size: auto 100%;
@@ -1878,34 +1199,10 @@ footer .youtube {
         line-height: 11px;
         color: #0D606F;
     }
-    
-    #stories .text a {
-        font-size: 8px;
-        line-height: 10px;
-    }
-
-    #stories .see-more{
-        text-align: center;
-    }
-    
-    #stories .see-more button {
-        margin: 0;
-        padding: 10px 12px;
-        padding-left: 28px;
-        padding-right: 12px;
-        font-size: 11px;
-        line-height: 15px;
-        background-size: 8px 5px;
-        background-position: 12px 14px;
-    }
 
     footer {
         height: 50px;
         padding-top: 13px;
-    }
-
-    footer .course, footer p{
-        display: none;
     }
 
     footer ul {
