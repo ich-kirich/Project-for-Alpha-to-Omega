@@ -49,6 +49,7 @@ header nav ul {
     gap: 42px;
     list-style: none;
 }
+
 header ul li {
     display: list-item;
 }
@@ -121,11 +122,11 @@ main {
     color: #fff;
 }
 
-#steps {
+#goals {
     margin-bottom: 97px;
 }
 
-#steps .container-steps h2 {
+#goals .container-goals h2 {
     margin: 0 0 40px;
     font-family: 'Red Hat Text', sans-serif;
     font-style: normal;
@@ -136,18 +137,18 @@ main {
     text-align: center;
 }
 
-#steps .container-steps {
+#goals .container-goals {
     margin: 0 auto;
     width: 1200px;
 }
 
-#steps .container-steps .list-steps {
+#goals .container-goals .list-goals {
     margin: 0 10px 97px;
     display: flex;
     justify-content: space-between;
 }
 
-#steps .step img {
+#goals .goal img {
     width: 100px;
     height: 100px;
     margin: 0 auto 30px;
@@ -157,7 +158,7 @@ main {
     background-repeat: no-repeat;
 }
 
-#steps .step p {
+#goals .goal p {
     margin: 0;
     color: #0D606F;
     font-family: 'Aleo', sans-serif;
@@ -167,7 +168,7 @@ main {
     text-align: center;
 }
 
-#steps .step .icon {
+#goals .goal .icon {
     width: 100px;
     height: 100px;
     margin: 0 auto 30px;
@@ -177,19 +178,19 @@ main {
     background-repeat: no-repeat;
 }
 
-#steps .container-steps .list-steps .step .bike {
+#goals .container-goals .list-goals .goal .bike {
     background-image: url(../img/step_first.svg);
 }
 
-#steps .container-steps .list-steps .step .calendar {
+#goals .container-goals .list-goals .goal .calendar {
     background-image: url(../img/step_second.svg);
 }
 
-#steps .container-steps .list-steps .step .plane {
+#goals .container-goals .list-goals .goal .plane {
     background-image: url(../img/step_third.svg);
 }
 
-#steps .list-steps .step:nth-child(2) {
+#goals .list-goals .goal:nth-child(2) {
     margin-left: 70px;
 }
 
@@ -439,7 +440,7 @@ footer .youtube {
         padding: 0 15px;
     }
 
-    #steps .container-steps {
+    #goals .container-goals {
         margin: 0 auto;
         width: auto; 
     }
@@ -544,11 +545,6 @@ footer .youtube {
     header li a {
         font-size: 10px;
     }
-
-    header .login button {
-        padding: 5px 15px;
-        font-size: 10px;
-    }
     
     #preview .preview-inner h1{
         font-size: 45px;
@@ -581,32 +577,32 @@ footer .youtube {
 
 @media screen and (max-width: 660px) {
 
-    #steps .step .icon {
+    #goals .goal .icon {
         width: 80px;
         height: 80px;
     }
 
-    #steps .container-steps .list-steps .step .bike {
+    #goals .container-goals .list-goals .goal .bike {
         background-image: url(../img/step_first.svg);
         background-size: 40px 40px;
     }
 
-    #steps .container-steps .list-steps .step .calendar {
+    #goals .container-goals .list-goals .goal .calendar {
         background-image: url(../img/step_second.svg);
         background-size: 40px 40px;
     }
 
-    #steps .container-steps .list-steps .step .plane {
+    #goals .container-goals .list-goals .goal .plane {
         background-image: url(../img/step_third.svg);
         background-size: 40px 40px;
     }
 
-    #steps .step p {
+    #goals .goal p {
         font-size: 15px;
         line-height: 24px;
     }
 
-    #steps .list-steps .step:nth-child(2) {
+    #goals .list-goals .goal:nth-child(2) {
         margin-left: 0px;
     }
 
@@ -650,40 +646,40 @@ footer .youtube {
         line-height: 48px;
     }
 
-    #steps .list-steps .step:nth-child(2) {
+    #goals .list-goals .goal:nth-child(2) {
         margin-left: 0px;
     }
 
-    #steps {
+    #goals {
         margin-bottom: 40px;
     }
 
-    #steps .container-steps h2 {
+    #goals .container-goals h2 {
         font-size: 30px;
         line-height: 53px;
     }
 
-    #steps .container-steps .list-steps .step .bike {
+    #goals .container-goals .list-goals .goal .bike {
         background-image: url(../img/step_first.svg);
         background-size: 40px 40px;
     }
 
-    #steps .container-steps .list-steps .step .calendar {
+    #goals .container-goals .list-goals .goal .calendar {
         background-image: url(../img/step_second.svg);
         background-size: 40px 40px;
     }
 
-    #steps .container-steps .list-steps .step .plane {
+    #goals .container-goals .list-goals .goal .plane {
         background-image: url(../img/step_third.svg);
         background-size: 40px 40px;
     }
 
-    #steps .step .icon {
+    #goals .goal .icon {
         width: 80px;
         height: 80px;
     }
 
-    #steps .step p {
+    #goals .goal p {
         font-size: 15px;
         line-height: 24px;
     }
@@ -730,36 +726,36 @@ footer .youtube {
         min-height: 400px;
     }
 
-    #steps {
+    #goals {
         margin-bottom: 40px;
     }
 
-    #steps .container-steps h2 {
+    #goals .container-goals h2 {
         font-size: 20px;
         line-height: 33px;
     }
 
-    #steps .step .icon {
+    #goals .goal .icon {
         width: 50px;
         height: 50px;
     }
 
-    #steps .container-steps .list-steps .step .bike {
+    #goals .container-goals .list-goals .goal .bike {
         background-image: url(../img/step_first.svg);
         background-size: 20px 20px;
     }
 
-    #steps .container-steps .list-steps .step .calendar {
+    #goals .container-goals .list-goals .goal .calendar {
         background-image: url(../img/step_second.svg);
         background-size: 20px 20px;
     }
 
-    #steps .container-steps .list-steps .step .plane {
+    #goals .container-goals .list-goals .goal .plane {
         background-image: url(../img/step_third.svg);
         background-size: 20px 20px;
     }
 
-    #steps .step p {
+    #goals .goal p {
         font-size: 10px;
         line-height: 12px;
     }
@@ -923,15 +919,15 @@ footer .youtube {
         top: 22px;
     }
 
-    #steps {
+    #goals {
         margin-bottom: 22px;
     }
 
-    #steps .container-steps {
+    #goals .container-goals {
         width: auto;
     }
 
-    #steps .container-steps h2 {
+    #goals .container-goals h2 {
         margin: 0 0 20px;
         font-family: 'Red Hat Text', sans-serif;
         font-style: normal;
@@ -942,18 +938,18 @@ footer .youtube {
         text-align: center;
     }
 
-    #steps .container-steps .list-steps {
+    #goals .container-goals .list-goals {
         padding: 0 15px;
         margin: 0 0 22px;
         display: flex;
         justify-content: space-between;
     }
 
-    #steps .list-steps .step:nth-child(2) {
+    #goals .list-goals .goal:nth-child(2) {
          margin-left: 0px;
     }
 
-    #steps .step img {
+    #goals .goal img {
         margin: 0 auto 30px;
         width: 70px;
         height: 70px;
@@ -963,12 +959,12 @@ footer .youtube {
         background-repeat: no-repeat;
     }
 
-    #steps .step:first-child p {
+    #goals .goal:first-child p {
         text-align: left;
         width: 94px
     }
     
-    #steps .step p {
+    #goals .goal p {
         margin: 0;
         color: #0D606F;
         font-family: 'Aleo', sans-serif;
@@ -977,17 +973,17 @@ footer .youtube {
         line-height: 12px;
     }
 
-    #steps .step:first-child .icon {
+    #goals .goal:first-child .icon {
         margin-left: 0;
         margin-right: 20px;
     }
 
-    #steps .step:nth-child(2) {
+    #goals .goal:nth-child(2) {
         margin-left: 12px;
     }
 
     
-    #steps .step .icon {
+    #goals .goal .icon {
         width: 70px;
         height: 70px;
         margin: 0 auto 19px;
@@ -997,27 +993,27 @@ footer .youtube {
         background-repeat: no-repeat;
     }
 
-    #steps .step:last-child * {
+    #goals .goal:last-child * {
         margin-right: 0;
         margin-left: auto;
     }
 
-    #steps .step:last-child p {
+    #goals .goal:last-child p {
         text-align: right;
         width: 94px;
     }
     
-    #steps .container-steps .list-steps .step .bike {
+    #goals .container-goals .list-goals .goal .bike {
         background-image: url(../img/step_first.svg);
         background-size: 35px 31px;
     }
     
-    #steps .container-steps .list-steps .step .calendar {
+    #goals .container-goals .list-goals .goal .calendar {
         background-image: url(../img/step_second.svg);
         background-size: 35px 31px;
     }
     
-    #steps .container-steps .list-steps .step .plane {
+    #goals .container-goals .list-goals .goal .plane {
         background-image: url(../img/step_third.svg);
         background-size: 35px 31px;
     }
